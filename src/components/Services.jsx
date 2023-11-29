@@ -2,14 +2,14 @@ import React from "react";
 import Servicescard from "../layouts/Servicescard";
 import { BsAndroid, BsWordpress } from "react-icons/bs";
 import { BiCodeAlt } from "react-icons/bi";
-import { GrApple } from "react-icons/gr";
+import { DiReact} from "react-icons/di";
 import { AiOutlineCodepen } from "react-icons/ai";
 import { PiGameControllerFill } from "react-icons/pi";
 
 const Services = () => {
   const icon1 = <BiCodeAlt size={55} className="text-brightColor" />;
   const icon2 = <BsAndroid size={55} className="text-brightColor" />;
-  const icon3 = <GrApple size={55} className="text-brightColor" />;
+  const icon3 = <DiReact size={55} className="text-brightColor" />;
   const icon4 = <AiOutlineCodepen size={55} className="text-brightColor" />;
   const icon5 = <PiGameControllerFill size={55} className="text-brightColor" />;
   const icon6 = <BsWordpress size={55} className="text-brightColor" />;

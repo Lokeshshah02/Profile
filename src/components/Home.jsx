@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../assets/profile.png"
+import img from "../assets/profile.png";
 import Button from "../layouts/Button";
 
 const Home = () => {
@@ -8,13 +8,14 @@ const Home = () => {
       <div className="flex flex-col items-center text-center lg:text-start lg:items-start w-full lg:w-3/4 space-y-4">
         <h1 className=" text-5xl font-semibold leading-tight mt-24">
           I'm Lokesh Kumar Shah
-          <span className=" text-brightColor"> Front-end </span>
+          <span className=" text-brightColor"> Front-end | MERN Stack </span>
           Developer
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. A
-          reprehenderit, quos praesentium iusto earum obcaecati nesciunt.
-          Corporis quasi ratione a.
+          Passionate about development and continuous learning, I'm eager to
+          embark on this journey, building robust solutions. With a strong work
+          ethic, I'm dedicated to driving success in dynamic software
+          development projects as a Frontend Developer and MERN Stack Developer.
         </p>
         <Button title="HIRE ME" />
       </div>

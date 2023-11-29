@@ -7,8 +7,20 @@ const Experience = () => {
         <h1 className=' text-center font-semibold text-4xl mt-24 lg:mt-16 mb-8 lg:mb-7'>Work History</h1>
 
         <div className=' bg-white p-5 rounded-md'>
-            <EducationCard title=" Junior Web Developer"/>
-            <EducationCard title=" Backend Developer"/>
+            <EducationCard title=" Junior Web Developer"
+            description="Internship at Tackle-D PVT.LTD Service Provider Firm
+            Role Developed the Company website ContactUs and AboutUs page.
+            https://www.tackled.co.in/"
+            year="Year: 2023"/>
+            <EducationCard title=" Backend Developer"
+            description="Backend Developer Intern
+            Worked on development of the EduShorts App project, utilizing Spring
+            Boot framework,JWT authentication, and SQL Server Management
+            Studio.Developed and maintained RESTful APIs, ensuring seamless
+            communication between frontend and backend systems.
+            Implemented JWT authentication for secure user authentication and
+            authorization, enhancing system security"
+            year="Year: 2023"/>
         </div>
     </div>
   )
